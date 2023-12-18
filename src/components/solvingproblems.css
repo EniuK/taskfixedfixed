@@ -1,0 +1,28 @@
+.problems-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 0;
+  width: 100%;
+}
+
+.text-solving {
+    color: #FB8958;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: -1%;
+    margin: 30px ;
+}
+
+@media (max-width: 900px) {
+  .text-solving{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: -1%;
+    margin: 10px ;
+  }
+    }
+    

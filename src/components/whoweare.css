@@ -1,0 +1,44 @@
+.we-are-wrapper {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+
+  padding-left: 100px;
+    justify-content: space-between;
+}
+
+.main {
+    font-weight: 700;
+    font-size: 85px;
+    line-height: 85px;
+    letter-spacing: -2%;
+    color: #3D4F5C;
+}
+
+.secondParagraph {
+    color: #FB8958;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: -1%;
+    margin: 30px auto;
+}
+
+@media (max-width: 900px) {
+.we-are-wrapper {
+   
+    flex-direction: column;
+    padding-left: 0;
+}
+
+.main {
+    font-size: 44px;
+    line-height: 44px;
+    margin-top: 30px;
+
+}
+.secondParagraph {
+    width: 35%;
+}
+  }
+  
